@@ -1,5 +1,10 @@
 # Whisper Opus Transcriber
 
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Poetry](https://img.shields.io/badge/poetry-enabled-blue.svg)
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![Tests](https://img.shields.io/badge/tests-pytest-brightgreen.svg)
+
 Modular Python pipeline to transcribe WhatsApp voice notes and audio files to Portuguese text using faster-whisper. Configuration is via environment variables and secrets are never committed.
 
 ## Structure
