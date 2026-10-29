@@ -1,0 +1,23 @@
+# Segredos e ambientes
+.env
+.env.*
+!.env.example
+
+# Dependências e artefatos
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+poetry.lock
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Dados sensíveis
+data/audios/
+data/transcricoes/
+data/conversas/

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "transcricoes-canzua"
+version = "1.0.0"
+description = "Transcrição de áudios .opus para texto em português"
+authors = ["projeto"]
+readme = "README.md"
+packages = [{ include = "modules" }, { include = "config" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+faster-whisper = "^1.0.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
